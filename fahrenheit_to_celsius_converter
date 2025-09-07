@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    float c;
+    printf("Enter the celsius degree u want to convert ");
+    scanf("%f", &c);
+    float f = (c*9/5)+32;
+    printf("Fahrenheit is %f", f);
+    return 0;
+}
