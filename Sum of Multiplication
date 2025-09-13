@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int k=8;
+    int m=0;
+    int l=0;
+    while(m<10){
+        m++;
+        printf("%d * %d = %d\n", k, m, k * m);
+        
+        l += k*m;
+    
+    }
+    printf("The sum of the multiplication is: %d\n", l);
+    return 0;
+}
